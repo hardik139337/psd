@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Titillium+Web:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logodiv img {
+  width: 70px;
+  height: 70px;
+}
+
+.logodiv {
+  margin-right: auto;
+}
+
+header {
+  padding: 5px 7%;
+  font-size: 15px;
+  line-height: 28px;
+  color: #4d4d4f;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.logodiv,
+header {
+  display: flex;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header * {
+  margin: 0 10px;
+}
+
+.logodiv p {
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  text-decoration: none !important;
+  color: black;
+}
+
+.round-div {
+  border-radius: 50px;
+}
+
+p {
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.fab {
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    display: block;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit !important;
+}
+
+.DanielleCurry {
+  margin-right: auto;
+}
+
+.RebeccaGray {
+  margin-right: auto;
+}
+
+.MadelineHogan {
+  height: 509px;
+}
+
+.First_class_pharmacy {
+  margin: auto 0 !important;
+}
+
+.PhilipNeal {
+  background-color: #6fac6a;
+}
+
+.CaseyMoreno {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.NicolasFleming {
+  line-height: 28px;
+  color: #323e4a;
+  font-weight: 700;
+  font-family: 'Titillium Web', serif;
+}
+
+.AnitaPotter {
+  color: #9ac496;
+}
+
+.Jabs_Vaccines {
+  text-align: center;
+}
+
+.ArthurPalmer {
+  position: absolute;
+  top: 50px;
+}
+.ArthurPalmer img {
+  width: 62%;
+}
+
+.CourtneyWaters {
+  color: #6fac6a;
+}
+.RoderickMccoy {
+  margin-top: 40px !important;
+}
+
+.JimmyMccoy {
+  text-align: center;
+}
+
+.darkdiv {
+  background-color: #313d49;
+}
+
+.CamilleCasey {
+  text-align: center;
+  color: white;
+}
+
+.FredrickCook {
+  font-family: 'Titillium Web', serif;
+}
+
+/* . {
+  font-size: 18px;
+  line-height: 32px;
+  color: #4a5764;
+  font-weight: 600;
+  font-family: ' Inter', serif;
+} */
+
+.TanyaWalters {
+  align-items: flex-start !important;
+}
+
+.MarianPratt {
+  text-align: center;
+  background-color: #212932;
+  color: white;
+}
+
+.ChristopherFrank {
+  color: #6fac6a;
+  display: block;
+}
