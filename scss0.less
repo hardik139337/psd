@@ -1,3 +1,8 @@
+.max1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .icon {
   background-color: #6fac6a;
   border-radius: 50%;
@@ -39,6 +44,10 @@ header {
     }
   }
 }
+
+// .MadelineHogan {
+
+// }
 
 .First_class_pharmacy {
   h1 {
@@ -132,15 +141,10 @@ header {
 }
 
 .Haxby {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
-  padding-left: 7%;
-  padding-right: 7%;
   padding-bottom: 100px;
   > div {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 10px auto;
   }
 
   p {
@@ -156,7 +160,7 @@ header {
   }
 
   a {
-    width: 289px;
+    max-width: 289px;
     height: 45px;
     border-radius: 22px;
     background-image: linear-gradient(90deg, #6fab69 0%, #6fab69 100%);
@@ -227,8 +231,9 @@ header {
 }
 
 .Service-Title {
+  margin: 60px 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
 
   a {
@@ -335,7 +340,7 @@ body {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .headerr {
     display: none !important;
   }
@@ -355,7 +360,7 @@ body {
     background-color: green;
   }
   :last-child {
-    left: 20px;
+    left: 10px;
     width: 7px;
   }
 }
