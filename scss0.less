@@ -23,14 +23,19 @@ header {
     border-radius: 23px;
     margin-left: 30px;
     width: 176px;
-    height: 45px;
+
     border-radius: 23px;
     background-image: linear-gradient(90deg, #6fab6a 0%, #6fab6a 100%);
+
+    text-align: start;
+    padding: 5px;
+    padding-left: 23px;
 
     span {
       float: right;
       border-radius: 50%;
       background-color: #9ac496;
+      margin: 0 !important;
     }
   }
 }
@@ -133,6 +138,10 @@ header {
   padding-left: 7%;
   padding-right: 7%;
   padding-bottom: 100px;
+  > div {
+    max-width: 400px;
+    margin: 0 auto;
+  }
 
   p {
     font-size: 15px;
@@ -201,7 +210,7 @@ header {
 
     align-items: center;
     justify-content: space-between;
-    width: 413px;
+    max-width: 413px;
     height: 64px;
     border-radius: 27px;
     background-image: linear-gradient(90deg, #6fab69 0%, #6fab69 100%);
@@ -227,6 +236,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 4px;
+    padding-left: 18px;
+    font-size: 13px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Inter';
 
     border-radius: 19px;
     background-image: linear-gradient(90deg, #6fab69 0%, #6fab69 100%);
@@ -256,6 +272,13 @@ header {
 }
 
 .ContactUs {
+  h1 {
+    font-size: 22px;
+
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Titillium Web';
+  }
   i {
     color: #9ac597;
     display: block;
@@ -272,7 +295,7 @@ footer {
   background-color: #323e4a;
   color: white;
   font-size: small;
-  height: 531px;
+  min-height: 531px;
 
   display: flex;
   align-items: center;
@@ -285,5 +308,54 @@ body {
 .OurPharmacies {
   p {
     margin-bottom: 7px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+    div {
+      margin-bottom: 30px;
+    }
+  }
+
+  .TanyaWalters {
+    text-align: start;
+  }
+
+  .fa-facebook {
+    margin-left: 24px;
+  }
+  .headerr {
+    display: inline-block !important;
+  }
+
+  .headerr0 {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .headerr {
+    display: none !important;
+  }
+}
+
+.ContactUs0 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 3px;
+
+  span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 15px;
+    height: 2px;
+    background-color: green;
+  }
+  :last-child {
+    left: 20px;
+    width: 7px;
   }
 }
